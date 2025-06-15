@@ -5,12 +5,18 @@
   "main": "server.js",
   "scripts": {
     "start": "node server.js",
-    "dev": "node server.js"
+    "dev": "node server.js",
+    "build": "echo 'No build step needed for Node.js'"
   },
   "engines": {
-    "node": ">=18.0.0"
+    "node": ">=18.0.0",
+    "npm": ">=8.0.0"
   },
-  "keywords": ["split-testing", "analytics", "conversion-optimization"],
+  "keywords": ["split-testing", "analytics", "conversion-optimization", "a-b-testing", "funnel-tracking"],
   "author": "Michael Rochin",
-  "license": "MIT"
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/michaelrochin/cbsplit-server.git"
+  }
 }
