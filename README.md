@@ -31,7 +31,9 @@ CBSplit is a comprehensive conversion rate optimization (CRO) platform that trac
 # Clone and deploy
 git clone https://github.com/michaelrochin/cbsplit-server.git
 cd cbsplit-server
-docker-compose up -d
+
+# Run locally
+npm start
 
 # Or deploy to cloud
 railway up  # Railway
@@ -111,12 +113,11 @@ fetch('https://your-cbsplit-server.com/api/cbsplit/analytics/homepage_test')
 git clone https://github.com/michaelrochin/cbsplit-server.git
 cd cbsplit-server
 
-# Run with Docker (Recommended)
-docker-compose up -d
+# Run with Node.js (Recommended)
+npm start
 
-# Or run with Gradle
-./gradlew shadowJar
-java -jar build/libs/cbsplit-server.jar
+# Or run directly
+node server.js
 
 # Verify installation
 curl http://localhost:8080/health
