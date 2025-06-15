@@ -1,0 +1,16 @@
+{
+  "name": "cbsplit-server",
+  "version": "1.0.0",
+  "description": "Enterprise A/Z Split Testing & Funnel Analytics Platform",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "keywords": ["split-testing", "analytics", "conversion-optimization"],
+  "author": "Michael Rochin",
+  "license": "MIT"
+}

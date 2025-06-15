@@ -1,1 +1,1 @@
-web: java -Xmx512m -jar build/libs/cbsplit-server.jar
+web: java -Xmx512m -Dserver.port=$PORT -jar build/libs/cbsplit-server.jar
