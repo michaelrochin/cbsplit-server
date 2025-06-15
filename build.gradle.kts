@@ -26,19 +26,6 @@ dependencies {
     implementation("io.ktor:ktor-server-cors:2.3.4")
     implementation("io.ktor:ktor-server-compression:2.3.4")
     
-    // Compose for UI (if running desktop version)
-    implementation("androidx.compose.ui:ui:1.5.1")
-    implementation("androidx.compose.ui:ui-tooling-preview:1.5.1")
-    implementation("androidx.compose.material3:material3:1.1.1")
-    implementation("androidx.compose.ui:ui-desktop:1.5.1")
-    
-    // Database
-    implementation("org.jetbrains.exposed:exposed-core:0.42.1")
-    implementation("org.jetbrains.exposed:exposed-dao:0.42.1")
-    implementation("org.jetbrains.exposed:exposed-jdbc:0.42.1")
-    implementation("org.jetbrains.exposed:exposed-java-time:0.42.1")
-    implementation("com.h2database:h2:2.2.220") // SQLite alternative
-    
     // Logging
     implementation("ch.qos.logback:logback-classic:1.4.11")
     
