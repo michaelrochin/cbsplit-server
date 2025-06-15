@@ -1,0 +1,43 @@
+# Kotlin/Java
+*.class
+*.jar
+*.war
+*.ear
+*.log
+.gradle/
+build/
+target/
+
+# IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# VS Code
+.vscode/
+
+# OS Files
+.DS_Store
+Thumbs.db
+
+# Environment files
+.env
+.env.local
+.env.prod
+
+# Database
+data/
+*.db
+*.sqlite
+
+# Logs
+logs/
+*.log
+
+# Docker
+.docker/
+
+# Temporary files
+tmp/
+temp/
